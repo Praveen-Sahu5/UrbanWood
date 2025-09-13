@@ -1,0 +1,589 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.first{
+    width:100%;
+    height:700px;
+    background-color:  rgb(22, 36, 33);
+}
+
+.navbar{
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+}
+
+.navbar .logo{
+    font-size:30px;
+    color: white;
+    margin-left:50px;
+    margin-top:10px;
+}
+
+.nav-items{
+    width:500px;
+    height:50px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:25px;
+
+}
+
+li{
+    font-size:22px;
+    color: white;
+    margin-top:20px;
+}
+
+.icons i{
+    width:20px;
+    height:100px;
+    margin-right: 50px;
+    margin-top:20px;
+}
+
+.fa-user{
+    font-size:30px;
+    color: white;
+}
+
+.fa-cart-shopping{
+    font-size: 30px;
+    color: white;
+}
+
+/* main part css */
+
+.first-content{
+    width:100%;
+    height:600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-left{
+    width:40%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-left:40px;
+}
+
+
+
+.first-left h1{
+    font-size: 35px;
+    color: white;
+    margin-left:30px;
+}
+
+.first-left p{
+    font-size:22px;
+    color: white;
+    margin-left:30px;
+    margin-top:20px;
+}
+
+.first-btn{
+    width:300px;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-left .shop{
+    width:120px;
+    height:40px;
+    font-size:20px;
+    color:black;
+    background-color: hsl(45, 83%, 46%);
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left:15px;
+
+}
+
+.first-left .explore{
+    width:120px;
+    height:40px;
+    background-color: transparent;
+    font-size:20px;
+    color: white;
+    border:1px solid white;
+    border-radius: 20px;
+    margin-top:20px;
+}
+
+.first-right{
+    width:60%;
+    height:500px;
+}
+
+/* second part css */
+
+.second-part{
+    width:100%;
+    height:500px;
+    background-color: white;
+}
+
+.second-box{
+    width:100%;
+    height:500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-left{
+    width:30%;
+    height:400px;
+    background-color: white;
+    margin-left:40px;
+}
+
+.second-left h2{
+    font-size:40px;
+    color:black;
+    margin-left: 30px;
+    margin-top:60px;
+}
+
+.second-left p{
+    font-size: 22px;
+    color:black;
+    margin-left:30px;
+    margin-top:15px;
+}
+
+.second-left button{
+    width:100px;
+    height:35px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top:15px;
+}
+.second-right{
+    width:70%;
+    height:400px;
+    background-color:white;
+}
+
+.second-cards-box{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.second-card{
+    width:200px;
+    height:300px;
+    
+}
+
+.second-card img{
+    width:280px;
+    height:300px;
+}
+
+.second-card h5{
+    font-size:18px;
+    color:black;
+    margin-left:20px;
+}
+
+.second-card h4{
+    font-size:20px;
+    color:black;
+    margin-left:20px;
+}
+
+
+/* Third part css */
+
+.third-part {
+    width:100%;
+    height:600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-left{
+    width:60%;
+    height:500px;
+    margin-top:30px;
+    margin-left:40px;
+}
+
+.third-left-row1{
+    width:80%;
+    height:150px;
+    margin-left:20px;
+}
+
+.third-left-row1 h2{
+    font-size:40px;
+}
+
+.third-left-row1 p{
+    font-size: 22px;
+    margin-top:10px;
+}
+
+.third-left-row2{
+    width:80%;
+    height:160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row2-box {
+    width:90%;
+    height:150px;
+    margin-left:20px;
+}
+
+.fa-truck{
+    font-size:30px;
+}
+
+.fa-bag-shopping {
+    font-size:30px;
+}
+
+.row2-box  h3{
+    font-size:22px;
+}
+
+.row2-box  p{
+    font-size: 18px;
+}
+
+.third-left-row3 {
+    width:80%;
+    height:160px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row3-box {
+    width:90%;
+    height:150px;
+    margin-left:20px;
+}
+
+.fa-futbol {
+    font-size:30px;
+}
+
+.fa-right-left {
+    font-size:30px;
+}
+
+.row3-box  h3{
+    font-size:22px;
+}
+
+.row3-box  p{
+    font-size: 18px;
+}
+
+
+.third-right{
+    width:40%;
+    height:600px;
+    margin-top:30px;
+}
+
+.third-right img{
+    width:80%;
+    height:500px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+/* Fourth part css */
+
+.fourth-part{
+    width:100%;
+    height:600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fourth-left{
+    width:55%;
+    height:600px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left:40px;
+    margin-top:20px;
+}
+
+.fourth-left-col1 img{
+    width:500px;
+    height:550px;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.fourth-left-col2 img{
+    width:300px;
+    height:200px;
+    
+}
+
+.fourth-left-col2 .image1{
+    width:250px;
+    height: 220px;
+    border:none;
+    border-radius: 30px;
+    margin-left:40px;
+}
+
+.fourth-left-col2 .image2{
+    width:350px;
+    height: 380px;
+    border:none;
+    border-radius: 30px 30px 0 0;
+    position: relative;
+    right:100px;
+    
+}
+
+.fourth-right {
+    width:50%;
+    height:600px;
+    margin-top:20px;
+}
+
+.fourth-right-box1 {
+    width:80%;
+    height:250px;
+    margin-left:10px;
+}
+
+.fourth-right-box1 h2{
+    font-size: 35px;
+}
+
+.fourth-right-box1 p{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.fourth-right-box2 {
+    width:80%;
+    height:200px;
+    margin-left:10px;
+    display: flex;
+}
+
+.fourth-right-box2-col1 {
+    width:50%;
+    height:150px;
+}
+
+.fourth-right-box2-col1 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.fourth-right-box2-col2 {
+    width:50%;
+    height:150px;
+}
+
+.fourth-right-box2-col2 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.fourth-right button{
+    width:120px;
+    height:50px;
+    background-color: black;
+    color: white;
+    font-size:22px;
+    border: none;
+    border-radius: 20px;
+    margin-left:10px;
+}
+
+/* Fifth part css */
+
+.fifth-part{
+    width:100%;
+    height:500px;
+    background-color: white;
+}
+
+.fifth-part-box{
+    width:100%;
+    height:450px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+
+.fifth-box{
+    width:30opx;
+    height:350px;
+    display: flex;
+}
+
+.fifth-box-col1 img{
+    width:250px;
+    height:300px;
+}
+
+.fifth-box-col2 h3{
+    font-size:25px;
+    color: black;
+    margin-top:45px;
+}
+
+.fifth-box-col2 p{
+    font-size:18px;
+    color:black;
+    margin-top: 10px;
+}
+
+.fifth-box-col2 button{
+    width:120px;
+    height:40px;
+    background-color: black;
+    color:white;
+    font-size:18px;
+    border:none;
+    border-radius: 20px;
+    margin-top:10px;
+}
+
+/* Sixth part css */
+
+.sixth-part{
+    width:100%;
+    height:700px;
+    background-color: white;
+}
+
+.sixth-part h1{
+    font-size:50px;
+    color:black;
+    margin-left:35px;
+}
+
+.sixth-box {
+    width:100%;
+    height:600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sixth-cards {
+    width:500px;
+    height:580px;
+}
+
+.sixth-cards img{
+    width:450px;
+    height:450px;
+    border: none;
+    border-radius: 35px;
+    margin-left:20px;
+}
+
+.sixth-cards h3{
+    font-size:20px;
+    color:black;
+    margin-left:40px;
+    margin-top:10px;
+}
+
+.sixth-cards p{
+    font-size:18px;
+    color:black;
+    margin-left:40px;
+    margin-top:10px;
+    
+}
+
+.sixth-cards button{
+    width:120px;
+    height:40px;
+    background-color: black;
+    color: white;
+    font-size:18px;
+    border: none;
+    border-radius: 20px;
+    margin-left:40px;
+    margin-top:10px;
+
+}
+
+/* Footer part CSS */
+
+.footer-box{
+    width:100%;
+    height:300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-card {
+    width:300px;
+    height:250px;
+    margin-top:20px;
+}
+
+.footer-card h2{
+    font-size:30px;
+    color:white;
+}
+
+.footer-card p{
+    font-size:20px;
+    color:white;
+    margin-top:20px;
+}
+
+.footer-card ul{
+    display: flex;
+    flex-direction: column;
+    gap:-20px;
+}
+
+.footer-card li{
+    font-size:20px;
+    color:white;
+    margin:0px;
+    padding: 0px;
+    margin-top:10px;
+}
+
+/* Resopnsive */
+
+
